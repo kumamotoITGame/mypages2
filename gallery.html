@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery｜My profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="ゲーム作品のご紹介">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="shortcut icon" href="icon.ico">
+  <link rel="apple-touch-icon" href="webclip128.png">
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5&appId=643231655816289";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!--ヘッダー-->
+  <header>
+    <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+    <div id="header_contact"><a href="https://twitter.com/share" class="twitter-share-button"
+        data-url="http://index.ne.jp" data-text="HPを作成してみました">Tweet</a></div>
+    <script>
+      ! function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = p + '://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, 'script', 'twitter-wjs');
+    </script>
+    <nav id="global_navi">
+      <ul>
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="course.html">Skill</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--/ヘッダー-->
+
+  <!--wrapper-->
+  <div id="wrapper">
+    <!--メイン-->
+    <div id="main">
+      <div id="breadcrumb">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Gallery</li>
+        </ol>
+      </div>
+      <article id="course">
+        <h1>Gallery</h1>
+        <p class="lead">作品を紹介いたします</p>
+        <p>無料で遊べる作品もありますので、ぜひプレイしてみてください。</p>
+        <section id="gallery">
+          <h2>厳選ゲーム ５作品</h2>
+          <section>
+            <h3>ゲームタイトル １</h3>
+            <table>
+              <tr>
+                <th>URL</th>
+                <td><a href="https://prog-8.com/">https://prog-8.com/</a></td>
+              </tr>
+              <tr>
+                <th>ゲームジャンル</th>
+                <td>製作期間</td>
+              </tr>
+              <tr>
+                <th>特徴</th>
+                <td>ユーザー数190万人規模を想定したオンラインゲームシステム</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <h3>ゲームタイトル ２</h3>
+            <table>
+              <tr>
+                <th>URL</th>
+                <td><a href="https://dotinstall.com/">https://dotinstall.com/</a></td>
+              </tr>
+              <tr>
+                <th>パズルゲーム</th>
+                <td>製作期間：一週間</td>
+              </tr>
+              <tr>
+                <th>特徴</th>
+                <td>時間経過で変化するイチゴの状態をビジュアルで表現し、複数の要素を同時に処理できる設計にしています</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <h3>ゲームタイトル ３</h3>
+            <table>
+              <tr>
+                <th>URL</th>
+                <td><a href="https://paiza.jp/works">https://paiza.jp/works</a></td>
+              </tr>
+              <tr>
+                <th>調理ゲーム</th>
+                <td>製作期間：４日</td>
+              </tr>
+              <tr>
+                <th>特徴</th>
+                <td>肉の焼き色を時間で変化させ、テクスチャのブレンド描画を駆使しリアリティーを表現する</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <h3>ゲームタイトル ４</h3>
+            <table>
+              <tr>
+                <th>URL</th>
+                <td><a href="https://www.udemy.com/">https://www.udemy.com/</a></td>
+              </tr>
+              <tr>
+                <th>アクションゲーム</th>
+                <td>期間：１週間</td>
+              </tr>
+              <tr>
+                <th>特徴</th>
+                <td>ジャストガードのみで天界を目指す</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <h3>ゲームタイトル ５</h3>
+            <table>
+              <tr>
+                <th>URL</th>
+                <td><a href="https://schoo.jp/">https://schoo.jp/</a></td>
+              </tr>
+              <tr>
+                <th>メタリックボール迷路</th>
+                <td>地形が変化する迷路を、ボールを傾けながらゴールへ導くゲームです。</td>
+              </tr>
+              <tr>
+                <th>特徴</th>
+                <td>地形変化のパターンを覚えながらゴールを目指す迷路</td>
+              </tr>
+            </table>
+          </section>
+        </section>
+      </article>
+      <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard"
+        data-action="like" data-show-faces="true" data-share="true"></div>
+    </div>
+    <!--/メイン-->
+
+    <!--サイド-->
+    <aside id="sidebar">
+
+    </aside>
+    <!--/サイド-->
+  </div>
+  <!--/wrapper-->
+
+  <!--フッター-->
+  <footer>
+    <div id="footer_nav">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="policy.html">privacy policy</a></li>
+      </ul>
+    </div>
+    <small>&copy; 2026 OrekiKoutarou.</small>
+  </footer>
+  <!--/フッター-->
+
+</body>
+
+</html>
