@@ -85,14 +85,16 @@ header #header_contact {
 }
 /* コンテンツ全体 */
 #wrapper {
-  width: 980px;
+  /*width: 980px;
+  margin: 0 auto;
+  overflow: hidden;*/
+  max-width: 980px;
   margin: 0 auto;
   overflow: hidden;
 }
 /* メイン部分 */
 #main {
-  width: 730px;
-  float: left;
+  flex: 1;
 }
 /* サイドバー */
 #sidebar {
